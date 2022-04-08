@@ -1,0 +1,62 @@
+2022-04-08 10:30:54.414 +04:30 [INF] Now listening on: https://localhost:7025
+2022-04-08 10:30:54.457 +04:30 [INF] Now listening on: http://localhost:5058
+2022-04-08 10:30:54.461 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-08 10:30:54.462 +04:30 [INF] Hosting environment: Development
+2022-04-08 10:30:54.463 +04:30 [INF] Content root path: D:\dev\Blazor\BookShopApp\API\
+2022-04-08 10:31:46.031 +04:30 [INF] Made Call to weather end.
+2022-04-08 10:31:46.035 +04:30 [ERR] Fatal Error Occured
+System.Exception: This is logging test exception
+   at API.Controllers.WeatherForecastController.Get() in D:\dev\Blazor\BookShopApp\API\Controllers\WeatherForecastController.cs:line 27
+2022-04-08 10:31:46.213 +04:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is logging test exception
+   at API.Controllers.WeatherForecastController.Get() in D:\dev\Blazor\BookShopApp\API\Controllers\WeatherForecastController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-08 10:44:28.392 +04:30 [INF] Application is shutting down...
+2022-04-08 10:46:33.978 +04:30 [INF] Now listening on: https://localhost:7025
+2022-04-08 10:46:34.028 +04:30 [INF] Now listening on: http://localhost:5058
+2022-04-08 10:46:34.034 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-08 10:46:34.035 +04:30 [INF] Hosting environment: Development
+2022-04-08 10:46:34.037 +04:30 [INF] Content root path: D:\dev\Blazor\BookShopApp\API\
+2022-04-08 10:49:17.988 +04:30 [INF] Made Call to weather end.
+2022-04-08 10:49:17.992 +04:30 [ERR] Fatal Error Occured
+System.Exception: This is logging test exception
+   at API.Controllers.WeatherForecastController.Get() in D:\dev\Blazor\BookShopApp\API\Controllers\WeatherForecastController.cs:line 27
+2022-04-08 10:49:18.306 +04:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is logging test exception
+   at API.Controllers.WeatherForecastController.Get() in D:\dev\Blazor\BookShopApp\API\Controllers\WeatherForecastController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-08 11:06:07.536 +04:30 [INF] Application is shutting down...
